@@ -10,7 +10,7 @@ function Bloglist() {
     <div className="container mx-auto px-4 py-8">
       {/* Category Filter Buttons */}
       <div className="flex justify-center mb-10 gap-4 my-6 flex-wrap">
-        {["All", "Technology", "Education", "Collaboration"].map((category) => (
+        {["All", "Education", "Technology", "Collaboration"].map((category) => (
           <button
             key={category}
             onClick={() => setMenu(category)}
